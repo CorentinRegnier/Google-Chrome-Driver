@@ -1,0 +1,27 @@
+{
+  "name": "cregnier/google-chrome-driver",
+  "description": "Google Chrome Driver for Selenium",
+  "homepage": "https://github.com/MWCorentin/Google-Chrome-Driver",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Corentin Regnier",
+      "email": "corentin.regnier59@gmail.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x"
+    }
+  },
+  "bin": [
+    "bin/chromedriver_win.exe",
+    "bin/chromedriver_linux",
+    "bin/chromedriver_mac"
+  ]
+}
+
